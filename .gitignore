@@ -1,0 +1,27 @@
+# XAMPP / Local environment
+config/db.php.local
+
+# Uploaded images (large binary files — not versioned)
+assets/images/events/*.jpg
+assets/images/events/*.jpeg
+assets/images/events/*.png
+assets/images/events/*.webp
+assets/images/events/*.gif
+!assets/images/events/.gitkeep
+
+# Generated QR codes
+qr/generated/*.png
+!qr/generated/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# PHP error logs
+*.log
+error_log
