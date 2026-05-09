@@ -1,0 +1,26 @@
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .sidebar{
+        width:100%;
+        min-height:auto;
+    }
+
+    .main-content{
+        padding:20px !important;
+    }
+
+    .seat{
+        width:45px;
+        height:45px;
+        font-size:12px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+}
